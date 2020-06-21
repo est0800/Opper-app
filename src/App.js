@@ -26,8 +26,8 @@ class Login extends React.Component {
   }
   render() {
     return (
-      <div>
-        {this.state.submenu ? (
+      
+        
           <div>
             <div className="Login-menu-Container">
               <nav className="#d-flex">
@@ -75,46 +75,8 @@ class Login extends React.Component {
               <hr />
               <h5 className="submenu-text">¿Por qué Opper?</h5>
             </div>
-          </div>
-        ) : (
-          <div>
-            <div className="Login-menu-Container">
-              <nav className="#d-flex">
-                <div className="Login-bar d-flex justify-content-center">
-                  <link
-                    href="https://fonts.googleapis.com/icon?family=Material+Icons"
-                    rel="stylesheet"
-                  />
-
-                  <a href="#" className="Login-menu">
-                    <li>
-                      {" "}
-                      <h5>Inicio</h5>{" "}
-                    </li>
-                  </a>
-                  <a onClick={this.handleClick} href="#" className="Login-menu">
-                    {" "}
-                    <li>
-                      <h5>Acerca de Opper </h5>
-                      <div className="icon">
-                        <span class="material-icons">expand_more</span>
-                      </div>
-                    </li>
-                  </a>
-                  <a href="#" className="Login-menu">
-                    <li>
-                      {" "}
-                      <h5>Servicios</h5>
-                    </li>
-                  </a>
-                </div>
-              </nav>
-            </div>
-            <div className="Banner-Change" />
-          </div>
-        )}
-      </div>
-    );
+          
+        );
   }
 }
 
