@@ -1,7 +1,5 @@
 import "./styles.css";
 
-import "../App.css";
-
 import React, { useState, Component } from "react";
 
 import "material-icons";
