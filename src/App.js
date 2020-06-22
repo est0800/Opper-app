@@ -1,5 +1,7 @@
 import "./styles.css";
 
+import "../App.css";
+
 import React, { useState, Component } from "react";
 
 import "material-icons";
@@ -30,41 +32,28 @@ class Login extends React.Component {
   render() {
     return (
       
-      <div className="Menu-Container">
-        
-        
-        <nav className="Menu">
-          <ul>
-       
-            <li><a href="#"><h5>Inicio</h5></a></li>
-            <li><a href="#"><h5>Acerca de Opper</h5></a>
-            <ul>
-            
-            <li><a href="#"><h5>¿Quienes somos?</h5></a></li>
-            <li><a href="#"><h5>¿Que es Opper?</h5></a></li>
-            <li><a href="#"><h5>¿Por que Opper?</h5></a></li>
-            <li><a href="#"><h5>Nuestro equipo</h5></a></li>
-            </ul>
-            
-            </li>
-
-            <li><a href="#"><h5>Servicios</h5></a>
-            
-            <ul>
-            <li><a href="#"><h5>Opper premium</h5></a></li>
-            <li><a href="#"><h5>Soporte</h5></a></li>
-          
-            </ul>
-            
-            </li>
-          
-          
-          </ul>
-          </nav>
-          <div>
-            <h2>OPPER</h2>
-            </div>        
-      </div>
+      <div class="menu-container"> 
+   <nav class="menu"> 
+    <ul> 
+     <li><a href="#"><h5>Inicio</h5></a></li> 
+     <li><a href="#"><h5>Acerca de Opper</h5></a> 
+      <ul class="submenu"> 
+       <li><a href="#"><h5>¿Quienes somos?</h5></a></li> 
+       <li><a href="#"><h5>¿Que es Opper?</h5></a></li> 
+       <li><a href="#"><h5>¿Por que Opper?</h5></a></li> 
+       <li><a href="#"><h5>Nuestro equipo</h5></a></li> 
+      </ul> </li> 
+     <li><a href="#"><h5>Servicios</h5></a> 
+      <ul class="submenu"> 
+       <li><a href="#"><h5>Opper premium</h5></a></li> 
+       <li><a href="#"><h5>Soporte</h5></a></li> 
+      </ul> </li> 
+    </ul> 
+   </nav>
+   <div className="Logo-Opper">
+    <h2>OPPER</h2> 
+    </div> 
+  </div> 
       
     );
   }
