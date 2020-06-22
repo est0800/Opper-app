@@ -8,75 +8,65 @@ document.body.style.margin = 0;
 document.body.style.padding = 0;
 
 class Login extends React.Component {
-  constructor(props) {
+  constructor(props){
     super(props);
+  
+    this.state = {submenu:false}
 
-    this.state = { submenu: false };
-    
+    this.state = {inicio:true}
+    this.state = {quienes_somos:true}
 
     this.handleClick = this.handleClick.bind(this);
     this.ComponentChange = this.ComponentChange.bind(this);
-  }
-  handleClick() {
-    this.setState({ submenu: true });
-  }
-
-  ComponentChange() {
-    this.setState({ submenu: false });
-  }
+  
+    }
+    handleClick(){
+      this.setState({submenu:true})
+    }
+  
+    ComponentChange(){
+      this.setState({submenu:false})
+    }
   render() {
     return (
       
+      <div className="Menu-Container">
         
-          <div>
-            <div className="Login-menu-Container">
-              <nav className="#d-flex">
-                <div className="Login-bar d-flex justify-content-center">
-                  <link
-                    href="https://fonts.googleapis.com/icon?family=Material+Icons"
-                    rel="stylesheet"
-                  />
+        
+        <nav className="Menu">
+          <ul>
+       
+            <li><a href="#"><h5>Inicio</h5></a></li>
+            <li><a href="#"><h5>Acerca de Opper</h5></a>
+            <ul>
+            
+            <li><a href="#"><h5>¿Quienes somos?</h5></a></li>
+            <li><a href="#"><h5>¿Que es Opper?</h5></a></li>
+            <li><a href="#"><h5>¿Por que Opper?</h5></a></li>
+            <li><a href="#"><h5>Nuestro equipo</h5></a></li>
+            </ul>
+            
+            </li>
 
-                  <a href="#" className="Login-menu">
-                    <li>
-                      {" "}
-                      <h5>Inicio</h5>{" "}
-                    </li>
-                  </a>
-                  <a
-                    onClick={this.ComponentChange}
-                    href="#"
-                    className="Login-menu"
-                  >
-                    {" "}
-                    <li>
-                      <div className="color-text">
-                        <h5>Acerca de Opper </h5>
-                      </div>
-                      <div className="icon">
-                        <span class="material-icons">expand_more</span>
-                      </div>
-                    </li>
-                  </a>
-                  <a href="#" className="Login-menu">
-                    <li>
-                      {" "}
-                      <h5>Servicios</h5>
-                    </li>
-                  </a>
-                </div>
-              </nav>
-            </div>
-
-            <div className="submenu-padding">
-              <h5 className="submenu-text">¿Qué es Opper?</h5>
-              <hr />
-              <h5 className="submenu-text">Nuestro equipo</h5>
-              <hr />
-              <h5 className="submenu-text">¿Por qué Opper?</h5>
-            </div>
+            <li><a href="#"><h5>Servicios</h5></a>
+            
+            <ul>
+            <li><a href="#"><h5>Opper premium</h5></a></li>
+            <li><a href="#"><h5>Soporte</h5></a></li>
           
-        );
+            </ul>
+            
+            </li>
+          
+          
+          </ul>
+          </nav>
+          <div>
+            <h2>OPPER</h2>
+            </div>        
+      </div>
+      
+    );
   }
 }
 
