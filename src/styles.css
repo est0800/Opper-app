@@ -1,45 +1,50 @@
-.Login-bar {
-  font-family: "Roboto Condensed", sans-serif;
-  display: block;
-  padding: 3px;
-  text-indent: 45px;
-  font-size: 13px;
+body{
+  background-color: black;
 }
 
-li {
-  text-decoration: none;
+.Menu-Container{
+
+  padding: 2em;
+  background-color: white;
+}
+
+h2{
+  font-size: 5%;
+}
+
+
+.Menu{
+  float:right;
+
+  
+  
+}
+
+.Menu ul{
+  display: flex;
+  padding: 0%;
+  margin: 0%;
   list-style: none;
 }
 
-.Login-menu {
-  text-decoration-line: none;
+.Menu a{
+  margin-top: -50px;
+  display:block ;
+  padding: 2em;
+  height: 8%;
+  background-color: white;
   text-decoration: none;
-  text-decoration-color: none;
-  text-decoration-skip: none;
-  text-decoration-style: none;
   color: gray;
+
+  
 }
 
-a:hover {
-  text-decoration-line: initial;
-  color: whitesmoke;
+
+
+.Menu ul li ul{
+  display: none;
 }
 
-.d-flex {
-  display: flex;
-  justify-content: right;
-  margin-left: 1160px;
-}
-
-.icon {
-  vertical-align: middle;
-  display: inline-block;
-  margin-top: -60px;
-  margin-left: 45px;
-  padding: 0px;
-}
-
-.Login-menu-Container {
-  padding: 5px;
-  background-color: black;
+.Menu ul li a:hover + ul, .Menu ul li ul:hover{
+  display: block;
 }
