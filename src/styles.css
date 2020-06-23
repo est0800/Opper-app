@@ -1,9 +1,21 @@
-.menu-container{
-  padding: 1%;
-  background-color: black;
+body {
+  background-color: #401d76;
+  animation-duration: 5s;
+  animation-name: transcision;
 }
 
-.menu ul{
+@keyframes transcision {
+  from {
+    opacity: 0.1;
+  }
+}
+
+.menu-container {
+  padding: 1%;
+  background-color: #401d76;
+}
+
+.menu ul {
   padding: 0px;
   margin: 0px;
   display: flex;
@@ -13,43 +25,71 @@
   padding: 0px;
   margin: 0px;
   display: flex;
-  float:right;
+  float: right;
   text-indent: 10px;
   margin-top: -13px;
   font-size: 13px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.menu li{
+.menu li {
   list-style: none;
-  
 }
 
-.menu a{
-  color: gray;
+.menu a {
+  color: white;
   text-decoration-line: none;
   padding: 1em;
   display: block;
 }
 
-.menu a:hover{
+.menu a:hover {
   color: white;
-  background-color: rgb(21, 21, 21);
+  background-color: #4a2885;
 }
 
-.menu ul li ul{
-  display:none;
+.menu ul li ul {
+  display: none;
 }
 
-.menu li:hover .submenu{
-  display:block;
-  background-color: black;
+.menu li:hover .submenu {
+  display: block;
+  background-color: #473485;
   color: rgb(21, 21, 21);
   font-size: 13px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.Logo-Opper{
-  font-size: 10px;
-  color: gray;
+.Logo-Opper {
+  font-family: "Faster One", cursive;
+  font-size: 15px;
+  color: white;
+  margin-top: -5px;
+  position: absolute;
+}
+
+.Login-Container h2 {
+  font-family: "Seaweed Script", cursive;
+  color: white;
+  font-size: 45px;
+  margin-top: 195px;
+  text-align: center;
+  margin-left: 35%;
+  position: absolute;
+}
+
+.Button-Container button {
+  margin-top: 335px;
+  margin-left: 15px;
+  border-radius: 15px;
+  border-bottom: none;
+  padding: 2px;
+  width: 100px;
+  height:32px;
+  background-color: #401d76;
+  border-color: white;
+}
+
+.Button-Container{
+  margin-left:36%;
 }
