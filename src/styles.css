@@ -79,17 +79,24 @@ body {
 }
 
 .Button-Container button {
-  margin-top: 335px;
+  margin-top: 425px;
   margin-left: 15px;
   border-radius: 15px;
-  border-bottom: none;
   padding: 2px;
-  width: 100px;
-  height:32px;
-  background-color: #401d76;
+  width: 150px;
+  height:35px;
+  background-color: #4c2882;
   border-color: white;
+  color:white;
+  
 }
 
 .Button-Container{
-  margin-left:36%;
+  margin-left:38%;   
+}
+
+.Button-Container button:hover{
+  background-color: white;
+  color:black;
+  transition:2s;
 }
