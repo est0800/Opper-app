@@ -56,7 +56,7 @@ class Login extends React.Component {
           <nav class="menu">
             <ul>
               <li>
-                <a href="#">
+                <a  href="#">
                   <h5>Inicio</h5>
                 </a>
               </li>
@@ -181,7 +181,7 @@ class Login extends React.Component {
 
           <div className="Login-Container">
             <h2>Somos Opper</h2>
-
+            <h4>El tiempo se acaba, no dejes que pase</h4>
             <div className="Button-Container">
               <button>Empezar</button>
               </div>
@@ -242,4 +242,5 @@ class Login extends React.Component {
 }
 
 export default Login;
+
 
