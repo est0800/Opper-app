@@ -56,7 +56,7 @@ class Login extends React.Component {
           <nav class="menu">
             <ul>
               <li>
-                <a  href="#">
+                <a onClick={this.Inicio} href="#">
                   <h5>Inicio</h5>
                 </a>
               </li>
@@ -66,22 +66,22 @@ class Login extends React.Component {
                 </a>
                 <ul class="submenu">
                   <li>
-                    <a href="#">
+                    <a onClick={this.quienes_somos} href="#">
                       <h5>¿Quienes somos?</h5>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a onClick={this.que_es_opper} href="#">
                       <h5>¿Que es Opper?</h5>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a onClick={this.por_que_opper} href="#">
                       <h5>¿Por que Opper?</h5>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a onClick={this.nuestro_equipo} href="#">
                       <h5>Nuestro equipo</h5>
                     </a>
                   </li>
@@ -93,12 +93,12 @@ class Login extends React.Component {
                 </a>
                 <ul class="submenu">
                   <li>
-                    <a href="#">
+                    <a onClick={this.opper_premiun} href="#">
                       <h5>Opper premium</h5>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a onClick={this.soporte} href="#">
                       <h5>Soporte</h5>
                     </a>
                   </li>
@@ -193,54 +193,399 @@ class Login extends React.Component {
 
     if (this.state.banner === 2) {
       return (
-        <div>
-          <this.Menubar />
+        <div className="App-Container">
+        <div class="menu-container">
+          <nav class="menu">
+            <ul>
+              <li>
+                <a onClick={this.Inicio} href="#">
+                  <h5>Inicio</h5>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <h5>Acerca de Opper</h5>
+                </a>
+                <ul class="submenu">
+                  <li>
+                    <a onClick={this.quienes_somos} href="#">
+                      <h5>¿Quienes somos?</h5>
+                    </a>
+                  </li>
+                  <li>
+                    <a onClick={this.que_es_opper} href="#">
+                      <h5>¿Que es Opper?</h5>
+                    </a>
+                  </li>
+                  <li>
+                    <a onClick={this.por_que_opper} href="#">
+                      <h5>¿Por que Opper?</h5>
+                    </a>
+                  </li>
+                  <li>
+                    <a onClick={this.nuestro_equipo} href="#">
+                      <h5>Nuestro equipo</h5>
+                    </a>
+                  </li>
+                </ul>{" "}
+              </li>
+              <li>
+                <a href="#">
+                  <h5>Servicios</h5>
+                </a>
+                <ul class="submenu">
+                  <li>
+                    <a onClick={this.opper_premiun} href="#">
+                      <h5>Opper premium</h5>
+                    </a>
+                  </li>
+                  <li>
+                    <a onClick={this.soporte} href="#">
+                      <h5>Soporte</h5>
+                    </a>
+                  </li>
+                </ul>{" "}
+              </li>
+            </ul>
+          </nav>
+          <div className="Logo-Opper">
+            <h2>OPPER</h2>
+          </div>
         </div>
+      </div>
       );
     }
 
     if (this.state.banner === 3) {
       return (
-        <div>
-          <this.Menubar />
+        <div className="App-Container">
+        <div class="menu-container">
+          <nav class="menu">
+            <ul>
+              <li>
+                <a onClick={this.Inicio} href="#">
+                  <h5>Inicio</h5>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <h5>Acerca de Opper</h5>
+                </a>
+                <ul class="submenu">
+                  <li>
+                    <a onClick={this.quienes_somos} href="#">
+                      <h5>¿Quienes somos?</h5>
+                    </a>
+                  </li>
+                  <li>
+                    <a onClick={this.que_es_opper} href="#">
+                      <h5>¿Que es Opper?</h5>
+                    </a>
+                  </li>
+                  <li>
+                    <a onClick={this.por_que_opper} href="#">
+                      <h5>¿Por que Opper?</h5>
+                    </a>
+                  </li>
+                  <li>
+                    <a onClick={this.nuestro_equipo} href="#">
+                      <h5>Nuestro equipo</h5>
+                    </a>
+                  </li>
+                </ul>{" "}
+              </li>
+              <li>
+                <a href="#">
+                  <h5>Servicios</h5>
+                </a>
+                <ul class="submenu">
+                  <li>
+                    <a onClick={this.opper_premiun} href="#">
+                      <h5>Opper premium</h5>
+                    </a>
+                  </li>
+                  <li>
+                    <a onClick={this.soporte} href="#">
+                      <h5>Soporte</h5>
+                    </a>
+                  </li>
+                </ul>{" "}
+              </li>
+            </ul>
+          </nav>
+          <div className="Logo-Opper">
+            <h2>OPPER</h2>
+          </div>
         </div>
+      </div>
       );
     }
 
     if (this.state.banner === 4) {
       return (
-        <div>
-          <this.Menubar />
+        <div className="App-Container">
+        <div class="menu-container">
+          <nav class="menu">
+            <ul>
+              <li>
+                <a onClick={this.Inicio} href="#">
+                  <h5>Inicio</h5>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <h5>Acerca de Opper</h5>
+                </a>
+                <ul class="submenu">
+                  <li>
+                    <a onClick={this.quienes_somos} href="#">
+                      <h5>¿Quienes somos?</h5>
+                    </a>
+                  </li>
+                  <li>
+                    <a onClick={this.que_es_opper} href="#">
+                      <h5>¿Que es Opper?</h5>
+                    </a>
+                  </li>
+                  <li>
+                    <a onClick={this.por_que_opper} href="#">
+                      <h5>¿Por que Opper?</h5>
+                    </a>
+                  </li>
+                  <li>
+                    <a onClick={this.nuestro_equipo} href="#">
+                      <h5>Nuestro equipo</h5>
+                    </a>
+                  </li>
+                </ul>{" "}
+              </li>
+              <li>
+                <a href="#">
+                  <h5>Servicios</h5>
+                </a>
+                <ul class="submenu">
+                  <li>
+                    <a onClick={this.opper_premiun} href="#">
+                      <h5>Opper premium</h5>
+                    </a>
+                  </li>
+                  <li>
+                    <a onClick={this.soporte} href="#">
+                      <h5>Soporte</h5>
+                    </a>
+                  </li>
+                </ul>{" "}
+              </li>
+            </ul>
+          </nav>
+          <div className="Logo-Opper">
+            <h2>OPPER</h2>
+          </div>
         </div>
+      </div>
       );
     }
 
     if (this.state.banner === 5) {
       return (
-        <div>
-          <this.Menubar />
+        <div className="App-Container">
+        <div class="menu-container">
+          <nav class="menu">
+            <ul>
+              <li>
+                <a onClick={this.Inicio} href="#">
+                  <h5>Inicio</h5>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <h5>Acerca de Opper</h5>
+                </a>
+                <ul class="submenu">
+                  <li>
+                    <a onClick={this.quienes_somos} href="#">
+                      <h5>¿Quienes somos?</h5>
+                    </a>
+                  </li>
+                  <li>
+                    <a onClick={this.que_es_opper} href="#">
+                      <h5>¿Que es Opper?</h5>
+                    </a>
+                  </li>
+                  <li>
+                    <a onClick={this.por_que_opper} href="#">
+                      <h5>¿Por que Opper?</h5>
+                    </a>
+                  </li>
+                  <li>
+                    <a onClick={this.nuestro_equipo} href="#">
+                      <h5>Nuestro equipo</h5>
+                    </a>
+                  </li>
+                </ul>{" "}
+              </li>
+              <li>
+                <a href="#">
+                  <h5>Servicios</h5>
+                </a>
+                <ul class="submenu">
+                  <li>
+                    <a onClick={this.opper_premiun} href="#">
+                      <h5>Opper premium</h5>
+                    </a>
+                  </li>
+                  <li>
+                    <a onClick={this.soporte} href="#">
+                      <h5>Soporte</h5>
+                    </a>
+                  </li>
+                </ul>{" "}
+              </li>
+            </ul>
+          </nav>
+          <div className="Logo-Opper">
+            <h2>OPPER</h2>
+          </div>
         </div>
+      </div>
       );
     }
 
     if (this.state.banner === 6) {
       return (
-        <div>
-          <this.Menubar />
+        <div className="App-Container">
+        <div class="menu-container">
+          <nav class="menu">
+            <ul>
+              <li>
+                <a onClick={this.Inicio} href="#">
+                  <h5>Inicio</h5>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <h5>Acerca de Opper</h5>
+                </a>
+                <ul class="submenu">
+                  <li>
+                    <a onClick={this.quienes_somos} href="#">
+                      <h5>¿Quienes somos?</h5>
+                    </a>
+                  </li>
+                  <li>
+                    <a onClick={this.que_es_opper} href="#">
+                      <h5>¿Que es Opper?</h5>
+                    </a>
+                  </li>
+                  <li>
+                    <a onClick={this.por_que_opper} href="#">
+                      <h5>¿Por que Opper?</h5>
+                    </a>
+                  </li>
+                  <li>
+                    <a onClick={this.nuestro_equipo} href="#">
+                      <h5>Nuestro equipo</h5>
+                    </a>
+                  </li>
+                </ul>{" "}
+              </li>
+              <li>
+                <a href="#">
+                  <h5>Servicios</h5>
+                </a>
+                <ul class="submenu">
+                  <li>
+                    <a onClick={this.opper_premiun} href="#">
+                      <h5>Opper premium</h5>
+                    </a>
+                  </li>
+                  <li>
+                    <a onClick={this.soporte} href="#">
+                      <h5>Soporte</h5>
+                    </a>
+                  </li>
+                </ul>{" "}
+              </li>
+            </ul>
+          </nav>
+          <div className="Logo-Opper">
+            <h2>OPPER</h2>
+          </div>
         </div>
+      </div>
       );
     }
 
     if (this.state.banner === 7) {
       return (
-        <div>
-          <this.Menubar />
+        <div className="App-Container">
+        <div class="menu-container">
+          <nav class="menu">
+            <ul>
+              <li>
+                <a onClick={this.Inicio} href="#">
+                  <h5>Inicio</h5>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <h5>Acerca de Opper</h5>
+                </a>
+                <ul class="submenu">
+                  <li>
+                    <a onClick={this.quienes_somos} href="#">
+                      <h5>¿Quienes somos?</h5>
+                    </a>
+                  </li>
+                  <li>
+                    <a onClick={this.que_es_opper} href="#">
+                      <h5>¿Que es Opper?</h5>
+                    </a>
+                  </li>
+                  <li>
+                    <a onClick={this.por_que_opper} href="#">
+                      <h5>¿Por que Opper?</h5>
+                    </a>
+                  </li>
+                  <li>
+                    <a onClick={this.nuestro_equipo} href="#">
+                      <h5>Nuestro equipo</h5>
+                    </a>
+                  </li>
+                </ul>{" "}
+              </li>
+              <li>
+                <a href="#">
+                  <h5>Servicios</h5>
+                </a>
+                <ul class="submenu">
+                  <li>
+                    <a onClick={this.opper_premiun} href="#">
+                      <h5>Opper premium</h5>
+                    </a>
+                  </li>
+                  <li>
+                    <a onClick={this.soporte} href="#">
+                      <h5>Soporte</h5>
+                    </a>
+                  </li>
+                </ul>{" "}
+              </li>
+            </ul>
+          </nav>
+          <div className="Logo-Opper">
+            <h2>OPPER</h2>
+          </div>
         </div>
+      </div>
       );
     }
   }
 }
 
 export default Login;
+
+
+
 
 
