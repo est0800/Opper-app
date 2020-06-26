@@ -11,7 +11,7 @@ class Login extends React.Component {
   constructor(props) {
     super(props);
 
-    this.state = { banner: 1 };
+    this.state = { banner:  2};
 
     this.Inicio = this.Inicio.bind(this);
     this.quienes_somos = this.quienes_somos.bind(this);
@@ -252,6 +252,13 @@ class Login extends React.Component {
             <h2>OPPER</h2>
           </div>
         </div>
+        <div className="quienes-somos">
+          <div className="title-2">
+            <h2>¿Quienes somos?</h2>
+            
+          </div>
+          <div className="description-2"></div>
+              </div>
       </div>
       );
     }
@@ -584,8 +591,3 @@ class Login extends React.Component {
 }
 
 export default Login;
-
-
-
-
-
