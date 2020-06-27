@@ -52,6 +52,8 @@ class Login extends React.Component {
   Menubar() {
     return (
       <div className="App-Container">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"/>
         <div class="menu-container">
           <nav class="menu">
             <ul>
@@ -255,9 +257,18 @@ class Login extends React.Component {
         <div className="quienes-somos">
           <div className="title-2">
             <h2>¿Quienes somos?</h2>
-            
           </div>
-          <div className="description-2"></div>
+          <div className="description-2">
+            <h4>Somos un equipo visionario que
+              busca facilitar las relaciones publicas
+             nosotros contamos con grandes socios e inversores
+            los cuales tomaron cartas en el asunto y decididos
+            a enseñarle esta gran apuesta al mundo y de esta 
+            forma facilitar la comunicacion para conseguir posibles
+            socios o inversores para su proyecto
+            </h4>
+          </div>
+              
               </div>
       </div>
       );
@@ -324,6 +335,26 @@ class Login extends React.Component {
             <h2>OPPER</h2>
           </div>
         </div>
+        <div className="quienes-somos">
+          <div className="title-2">
+            <h2>¿Que es Opper?</h2>
+          </div>
+          <div className="description-2">
+            <h4>
+              Opper es una red social la cual actua de
+              forma intermediaria para facilitar la 
+             interaccion entre diferentes personas para
+            conseguir socios o personas interesadas en
+            sus proyectos y no solo crear un gran lazo
+            sino conseguir personas que puedan aportar
+            a su proyecto. Tambien puede organizar eventos
+            con mayor precision y compartir las cosas que
+            logre con sus proyectos
+
+            </h4>
+          </div>
+              
+              </div>
       </div>
       );
     }
@@ -389,6 +420,24 @@ class Login extends React.Component {
             <h2>OPPER</h2>
           </div>
         </div>
+        <div className="quienes-somos">
+          <div className="title-2">
+            <h2>¿Por que Opper?</h2>
+          </div>
+          <div className="description-2">
+          <h4>Opper ofrece una eficacia no solo
+            al actuar como intermidiario a la hora
+            de conseguir un socio o personas interesadas
+            en su proyecto sino que tambien cuenta con
+            un gran sistema organizacion permitiendo organizar el 
+            proyecto y aparte de contar con un almacenamiento
+            en la nube para guardar el proyecto cuenta con
+            algunas herramientas que permiten realizar el proyecto
+            desde la aplicacion para aumentar la productividad
+          </h4>
+          </div>
+              
+              </div>
       </div>
       );
     }
@@ -454,6 +503,23 @@ class Login extends React.Component {
             <h2>OPPER</h2>
           </div>
         </div>
+        <div className="quienes-somos">
+          <div className="title-2">
+            <h2>Nuestro equipo</h2>
+          </div>
+          <div className="description-2">
+           
+<h4>El equipo de Opper está formado por su 
+   fundador Esteban Castellano y programador del proyecto quien hizo un
+   acuerdo con sus socios David y Sica 
+   quienes manejan un servidor de discord con
+   mas de 20.000 personas, en el desarrollo web
+   web se encuentra Daniel, junto a jo como segundo
+   programador 
+</h4>
+          </div>
+              
+              </div>
       </div>
       );
     }
@@ -519,6 +585,22 @@ class Login extends React.Component {
             <h2>OPPER</h2>
           </div>
         </div>
+        <div className="quienes-somos">
+          <div className="title-2">
+            <h2>Soporte</h2>
+          </div>
+          <div className="description-2">
+            <h4>Somos un equipo visionario que
+              busca facilitar las relaciones publicas
+             nosotros contamos con grandes socios e inversores
+            los cuales tomaron cartas en el asunto y decididos
+            a enseñarle esta gran apuesta al mundo y de esta 
+            forma facilitar la comunicacion para conseguir posibles
+            socios o inversores para su proyecto
+            </h4>
+          </div>
+              
+              </div>
       </div>
       );
     }
@@ -584,6 +666,21 @@ class Login extends React.Component {
             <h2>OPPER</h2>
           </div>
         </div>
+        <div className="quienes-somos">
+          <div className="title-2">
+            <h2>Opper premiun</h2>
+          </div>
+          <div className="description-2">
+            <h4>
+              Opper premiun es un servicio que permite
+              exceder el limite almacenamiento y brinda
+              herramientas trabajar con sus proyectos desde
+             la propia aplicacion ahorrando espacio y aumentando
+             su productividad
+            </h4>
+          </div>
+              
+              </div>
       </div>
       );
     }
