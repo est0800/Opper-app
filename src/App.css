@@ -1,9 +1,23 @@
+body{
+  background-color:#3f51b5;
+}
+
 .nav-container{
   padding: 20px;
   height: 100%;
   margin-right: 15px;
+  color: gray;
+
+
 }
 
 .nav-container h5{
   margin-right: 15px;
+  color: gray;
 }
+
+.nav-container li{
+  list-style: none;
+}
+
+
